@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faAppStore, faGithub, faGooglePlay, faGoogleDrive, faChrome } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Mari",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hey, I'm Mari",
+	description: "A Computer Engineer in Olin College of Engineering skilled in computer science, data analysis, user-integrated design, web development, and machine learning.",
 	image: profile.src,
 	buttons: [
 		{
@@ -45,23 +45,27 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+		"I am a junior in Olin College of Engineering pursuing a degree in Engineering with Computing. I have a work experience as a web developer in Purgo Biologics, and I'm currently a research assistant in Boston University. ",
+		"As a student in a college with project-based curriculum and integrated learning, I have various project experiences related to user-experience design and integrated engineering with mechanical and electrical engineers. To me, designing for the users is as important as the programming itself.",
 	],
 }
 
 export const work = {
-	title: "What I do",
+	title: "Work Experience",
 	cards: [
 		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+			title: "Research Assistant",
+			description: "I improved an eye tracker for people with disabilities involving the nervous system in Boston University School of Medicine.",
 			icons: null,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
+			title: "Data Researcher",
+			description: "I built algorithm using Python to collect FAA flight data for air quality research in Boston Logan area in Olin College of Engineering.",
+			icons: null,
+		},
+		{
+			title: "Web Developer",
+			description: "I programmed two web applications with full security measures using python flask and ubuntu server management for product subsidiary stock management and salesperson assistance.",
 			icons: null,
 		}
 	],
@@ -71,11 +75,31 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "StarBook",
+			title: "Music Visualizer",
+			description: "A music visualizer that gets user input, creates a music based on open source machine learning neural network based on the input, and visualizing the instrument and notes with LEDs and moving cats.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/GatiAher/disco_cats",
+				},
+			]
+		},
+		{
+			title: "FAA Data Management",
 			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
 			icons: [
 				{
-					icon: faAppStore,
+					icon: faGithub,
+					link: "https://github.com/joon628/FAADataSort",
+				},
+			]
+		},
+		{
+			title: "Fall Detection Analysis",
+			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			icons: [
+				{
+					icon: faChrome,
 					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
 				},
 				{
@@ -85,7 +109,7 @@ export const projects = {
 			]
 		},
 		{
-			title: "QuranTalk",
+			title: "Line Following Robot",
 			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
 			icons: [
 				{
@@ -99,7 +123,17 @@ export const projects = {
 			]
 		},
 		{
-			title: "Portfolio",
+			title: "Spotify Song Data Analysis",
+			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/MariKang/DataSci-SpotifyAnalysis",
+				},
+			]
+		},
+		{
+			title: "Rehabilitation",
 			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
 			icons: [
 				{
@@ -113,16 +147,16 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+	description: "Feel to reach out directly by email at mkang1@olin.edu.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
+			link: "mailto:mkang1@olin.edu",
 			isPrimary: true,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/marikang/",
 			isPrimary: false,
 		},
 	]
@@ -131,35 +165,27 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+	title: "Mari Kang| Computer Engineer",
+	description: "A Computer Engineer in Olin College of Engineering skilled in computer science, data analysis, user-integrated design, web development, and machine learning.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@marikang",
+	description: "Computer Engineer | Program Manager",
 	cards: [
 		{
 			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
+			link: "https://marikang.github.io/",
 		},
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/MariKang/",
 		},
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
+			link: "https://www.linkedin.com/in/marikang/",
 		},
 	]
 }
