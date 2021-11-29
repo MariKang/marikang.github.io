@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+			link: "https://docs.google.com/document/d/13Qo7QrCeMjjayg703Xk4gIPIjFUmAUvEadxQqkqO47Q/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -76,7 +76,7 @@ export const projects = {
 	cards: [
 		{
 			title: "Music Visualizer",
-			description: "A music visualizer that gets user input, creates a music based on open source machine learning neural network based on the input, and visualizing the instrument and notes with LEDs and moving cats.",
+			description: "A music visualizer that gets user input, generates music based on an open-source machine learning neural network using the input, and visualizes the instrument and notes with LEDs and moving cats.",
 			icons: [
 				{
 					icon: faGithub,
@@ -86,7 +86,7 @@ export const projects = {
 		},
 		{
 			title: "FAA Data Management",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			description: "An algorithm that consistently collects FAA flight data for Boston Logan airport, filter the data, and add into its own Amazon AWS Aurora MySQL database.",
 			icons: [
 				{
 					icon: faGithub,
@@ -96,49 +96,35 @@ export const projects = {
 		},
 		{
 			title: "Fall Detection Analysis",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+			description: "An analysis of fall detection based on the algorithm that monitors the motion of a person using accelerometer and detect a falling motion.",
 			icons: [
 				{
 					icon: faChrome,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+					link: "https://marisweet3546.wixsite.com/falldetectionqea",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
+					link: "https://github.com/joon628/Quantitative_Fall_Detection_Analysis",
 				},
 			]
 		},
 		{
 			title: "Line Following Robot",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			description: "A line-following robot using arduino motorshield and two infrared reflectance sensors.",
 			icons: [
 				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+					icon: faGithub,
+					link: "https://github.com/MariKang/line-following-robot",
 				},
 			]
 		},
 		{
 			title: "Spotify Song Data Analysis",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+			description: "An analysis of song popularity using Spotify tracks' metadata from spotifyr package.",
 			icons: [
 				{
 					icon: faGithub,
 					link: "https://github.com/MariKang/DataSci-SpotifyAnalysis",
-				},
-			]
-		},
-		{
-			title: "Rehabilitation",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
 				},
 			]
 		},
