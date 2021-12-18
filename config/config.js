@@ -79,6 +79,10 @@ export const projects = {
 			description: "A music visualizer that gets user input, generates music based on an open-source machine learning neural network using the input, and visualizes the instrument and notes with LEDs and moving cats.",
 			icons: [
 				{
+					icon: faChrome,
+					link: "https://olincollege.github.io/pie-2021-03/Disco-Cats/",
+				},
+				{
 					icon: faGithub,
 					link: "https://github.com/GatiAher/disco_cats",
 				},
@@ -148,9 +152,9 @@ export const contact = {
 	]
 }
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char  
+	// 50 - 60 char
 	title: "Mari Kang| Computer Engineer",
 	description: "A Computer Engineer in Olin College of Engineering skilled in computer science, data analysis, user-integrated design, web development, and machine learning.",
 	image: profile.src,
