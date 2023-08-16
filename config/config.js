@@ -11,6 +11,10 @@ export const navigation = {
 			link: "#about",
 		},
 		{
+			title: "Experience",
+			link: "#works",
+		},
+		{
 			title: "Projects",
 			link: "#projects",
 		},
@@ -26,17 +30,17 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hey, I'm Mari",
-	description: "A Computer Engineer in Olin College of Engineering skilled in computer science, data analysis, user-integrated design, web development, and machine learning.",
+	description: "A entry-level software engineer skilled in full-stack and backend development",
 	image: profile.src,
 	buttons: [
 		{
 			title: "Contact Me",
 			link: "#contact",
-			isPrimary: true,
+			isPrimary: false,
 		},
 		{
 			title: "Resume",
-			link: "https://docs.google.com/document/d/13Qo7QrCeMjjayg703Xk4gIPIjFUmAUvEadxQqkqO47Q/edit?usp=sharing",
+			link: "https://drive.google.com/file/d/137sCnnVEtvNIQr8IdP_QchBldLqKOZhB/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -45,8 +49,8 @@ export const intro = {
 export const about = {
 	title: "Who I am",
 	description: [
-		"I am a junior in Olin College of Engineering pursuing a degree in Engineering with Computing. I have a work experience as a web developer in Purgo Biologics, and I'm currently a research assistant in Boston University. ",
-		"As a student in a college with project-based curriculum and integrated learning, I have various project experiences related to user-experience design and integrated engineering with mechanical and electrical engineers. To me, designing for the users is as important as the programming itself.",
+		"Hi! I’m a recent graduate of Olin College of Engineering and I majored in engineering with computing. I’m a fast learner and always eager to learn new things. I’m versed in C++, C, C#, Python, Java, and web development skills. I’m also experienced in SQL and AWS RDS.",
+		"Going to a college that emphasizes hands-on learning experience, I worked on self-driven projects in every class with people in different fields including but not limited to engineers. I'm used to working in a cross-functional team and effectively communicating with people in various fields.",
 	],
 }
 
@@ -54,18 +58,33 @@ export const work = {
 	title: "Work Experience",
 	cards: [
 		{
-			title: "Research Assistant",
-			description: "I improved an eye tracker for people with disabilities involving the nervous system in Boston University School of Medicine.",
+			title: "Software Engineer and Project Manager at US Department of Transportation Volpe Center",
+			date: "Aug 2022 - May 2023",
+			description: ["- Coded Python-based High Injury Network(HIN) algorithm that classifies roads of high risk using OSMnx and visualizes on web application.",
+			"- Architected the data collection, cleaning, and relational database creation with AWS EC2. ",
+			"- Led a team of 5 software engineers using Agile Methodology and implemented ethical guidelines for the HIN algorithm to ensure equitable outcome"],
 			icons: null,
 		},
 		{
-			title: "Data Researcher",
-			description: "I built algorithm using Python to collect FAA flight data for air quality research in Boston Logan area in Olin College of Engineering.",
+			title: "Software Engineer Intern at Par Technology",
+			date: "Jun 2022 - May 2023",
+			description: ["- Created a .NET app for a connection between Point of Sales System and the Drive-Thru portal by linking the vehicle and order information to ensure the precision of the order using C# and C",
+			"- Programmed license plate detection algorithm that recognizes the plate from the car images, hashes the license plate number, and obfuscates the license plate using OpenCV"],
 			icons: null,
 		},
 		{
-			title: "Web Developer",
-			description: "I programmed two web applications with full security measures using python flask and ubuntu server management for product subsidiary stock management and salesperson assistance.",
+			title: "Data Management Researcher at Olin College of Engineering",
+			date: "Feb 2021 - May 2021",
+			description: ["- Implemented Java Message Service (JMS) to collect real-time data from the Federal Aviation Administration flight dataset of Boston Logan Airport to determine causal inference between airport traffic and air quality in Boston area",
+			"- Developed algorithm using Python to automatically detect new raw data, filter the altitude and location of the flight, and migrate to AWS database using MySQL"],
+			icons: null,
+		},
+		{
+			title: "Full Stack Developer at Purgo Biologics",
+			date: "Jun 2020 - Sep 2020",
+			description: ["- Deployed a sales assistance web application that tracks primary clients and visualizes data analysis using Flask and Ubuntu server management that decreased the sales churn rate by 27%",
+			"- Developed a supply chain stock management web application that shows real-time inventory and automated alerts for restocking",
+			"- Generated a Look-A-Like Model using Random Forest to identify potential customers based on their order history"],
 			icons: null,
 		}
 	],
@@ -74,6 +93,16 @@ export const work = {
 export const projects = {
 	title: "Projects",
 	cards: [
+		{
+			title: "Wearable Technology for Blind / Visually Impaired Group",
+			description: "Wearable technology mainly for blind and visually impaired group. Created iOS application that has functionalities including listening to music or reading news and can be completely screen-free using three different input methods (button, ring, quiet speech) based on the user's preference.",
+			icons: [
+				{
+					icon: faGoogleDrive,
+					link: "https://drive.google.com/drive/u/1/folders/1A735z9YCnJZ5UsYWG51l2ern-dx1cvCf",
+				},
+			]
+		},
 		{
 			title: "Music Visualizer",
 			description: "A music visualizer that gets user input, generates music based on an open-source machine learning neural network using the input, and visualizes the instrument and notes with LEDs and moving cats.",
@@ -137,11 +166,11 @@ export const projects = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Feel to reach out directly by email at mkang1@olin.edu.",
+	description: "Feel to reach out directly by email at marisweet3546@gmail.com",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:mkang1@olin.edu",
+			link: "mailto:marisweet3546@gmail.com",
 			isPrimary: true,
 		},
 		{
