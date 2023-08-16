@@ -50,7 +50,7 @@ export const Card = ({ title, date, description, icons }) => {
 			<h4 className="text-primary">{title}</h4>
 			<h6 className="text-dark"> {date}</h6>
 			{description.map((value, index) => (
-						<p class= "mb-0" key={index} >{value}</p>
+						<p className= "mb-0" key={index} >{value}</p>
 			))}
 			{/* <p className="text-dark">{description}</p> */}
 			<div className="text-end">
